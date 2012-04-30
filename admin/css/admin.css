@@ -1,0 +1,36 @@
+@charset "utf-8";
+body{font-family: Calibri; font-size:14px; color:#333; margin:0px; padding:0px;}
+.maindiv{ width:900px; margin:0px auto;}
+.header{ background:#DCF4FC; color:#226A95; padding:3px 0px; text-align:center;}
+.button{ background:#FD5C1D; border:none; text-decoration:none; color:#FFF; cursor:pointer; font-family: Calibri; font-size:14px; font-weight:bold;}
+.mesg{font-size:10px; color:#E44314;}
+.footer{ background:#DCF4FC; color:#226A95; padding:8px 0px; text-align:center;}
+.pointer{ cursor:pointer;}
+.grdnt{ -moz-border-radius: 3px 3px 3px 3px;    -moz-box-shadow: 0 0 1px #FFFFFF inset;   background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e0e0e0 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* IE10+ */
+background: linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+   border-color: #CCCCCC #CCCCCC #AAAAAA;    border-style: solid;    border-width: 1px;    color: #555555;    font-size: 11px;    font-weight: bold;    height: 2.95em;    padding: 0 0.91em;    text-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF;}
+.prdctMenus{ padding:0px; margin:0px; text-align:left;}
+.prdctMenus h3{ margin:14px 0px 0px 0px; padding:0px;}
+.prdctMenus ul{ margin:4px 0px; padding:0px 0px 0px 24px; list-style:disc; font-style:italic;}
+.prdctMenus ul li{ margin:0px; padding:2px 0px; font-weight:bold;}
+.prdctMenus ul li a{ text-decoration:none; color:#666}
+.prdctMenus ul li a:hover{ text-decoration:underline; color:#F90;}
+.textLinks{font-size:14px; padding:6px 8px; text-decoration: none; margin:0px 4px;}
+.mainmenu{ text-align:right; padding:10px 10px 10px 0px;}
+.textfield{ font-size:12px;font-family: Calibri; border:solid 1px #b69b5c; padding:2px; width:280px;}
+.textares{width:480px !important; height:180px;}
+.message{ padding:3px; text-align:center; text-align:center; font-weight:bold;}
+.success{ background:#ECFBC8; border:solid 1px #81CE2B; color:#81CE2B;}
+.error{ background:#FDD0C6; border:solid 1px #ED6252; color:#ED6252;}
+.edit{ display:block; height:18px; width:18px; text-indent:-9999px; background:url(../images/edit_icon.png) no-repeat center center;}
+.delete{ display:block; height:18px; width:18px; text-indent:-9999px; background:url(../images/delete.png) no-repeat center center;}
+.whitetexts{ color:#FFF; margin:0px; padding:0px;}
+.linkmenu:hover{ text-decoration:underline;}
+.linkmenu{ font-size:13px; text-decoration:none; color:#215E7E; font-weight:bold;}
+#imagdelt tr:hover{ background:#E4FEDA;}
